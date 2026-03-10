@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --couleur-primaire: #2563eb;
+  --couleur-primaire-hover: #1d4ed8;
+  --couleur-succes: #16a34a;
+  --couleur-erreur: #dc2626;
+  --couleur-avertissement: #d97706;
+  --couleur-fond: #f8fafc;
+  --couleur-fond-carte: #ffffff;
+  --couleur-texte: #1e293b;
+  --couleur-texte-secondaire: #64748b;
+  --couleur-bordure: #e2e8f0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--couleur-fond);
+  color: var(--couleur-texte);
+}
+
+/* Empêcher la sélection de texte lors du drag & drop */
+.no-select {
+  user-select: none;
+}
